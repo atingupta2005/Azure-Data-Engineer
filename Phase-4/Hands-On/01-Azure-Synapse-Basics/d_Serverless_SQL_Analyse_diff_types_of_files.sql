@@ -1,7 +1,14 @@
--- Create Database
+-- Use serverless SQL pool
+-- We can query data stored in linked storage via serverless pool only
+
+-- Synapse serverless SQL pool is a serverless query service that enables you to run SQL queries on files placed in Azure Storage.
+
+-- First-time setup
+-- Create Serverless Database
 CREATE DATABASE mydbname
 
 -- Create data source
+
 -- create master key that will protect the credentials:
 CREATE MASTER KEY ENCRYPTION BY PASSWORD = 'sknfd#isfnasdkf!bsk1'
 
