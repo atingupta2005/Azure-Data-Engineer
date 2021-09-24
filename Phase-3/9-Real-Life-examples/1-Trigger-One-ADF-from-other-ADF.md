@@ -1,0 +1,11 @@
+# Trigger-One-ADF-from-other-ADF
+- Create 2 separate ADF
+- Publish both
+- Assign contributor role to one data factory to the other ADF ID in RBAC
+- In adf create a pipeline and take Web Activity
+- Configure URL end point of the other data factory to be called
+  - URI - https://management.azure.com/subscriptions/${subscriptionId}/resourceGroups/${resourceGroupName}/providers/Microsoft.DataFactory/factories/${factoryName}/pipelines/{pipeline-name}/createRun?api-version=2018-06-01
+- Method: POST
+- Provide Authentication Pothod
+- Run data factory. It will call other
+-

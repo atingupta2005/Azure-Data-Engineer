@@ -29,3 +29,9 @@
 - Practical - Alerts and Monitor - Receive an Email when a Pipeline Fails
 - Practical - PROBLEM STATEMENT
 - Practical - Other Areas
+
+## Extra Topics
+- Azure Data Factory CI/CD with DevOps Pipelines
+    - https://iterationinsights.com/article/azure-data-factory-ci-cd-with-devops-pipelines/
+- Azure DevOps Pipeline Setup for Azure Data Factory (v2)
+    - https://cprosenjit.medium.com/azure-devops-pipeline-setup-for-azure-data-factory-v2-8e957cd5141
